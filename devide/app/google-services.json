@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990538221319",
+    "project_id": "devide-7e76b",
+    "storage_bucket": "devide-7e76b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990538221319:android:181b4b57ca6e4dd1d0e7a2",
+        "android_client_info": {
+          "package_name": "com.example.devide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990538221319-7ftp98t0rmca0fm0s7oflhvfv4o4a7d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZriDMADIUlkQhLcf9UH4cxGiMAZXl4V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990538221319-7ftp98t0rmca0fm0s7oflhvfv4o4a7d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

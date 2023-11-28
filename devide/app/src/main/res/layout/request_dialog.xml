@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mybackground"
+    android:backgroundTint="@color/베이지"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquare_exbold"
+        android:text="거래 시간"
+        android:textColor="@color/네이비"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/time_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex) 월요일 9시 30분" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nanumsquare_exbold"
+        android:text="희망 수량, 옵션"
+        android:textColor="@color/네이비"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/memo_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex) 2개, 초록색 혹은 핑크색" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:backgroundTint="@color/연두"
+            android:fontFamily="@font/nanumsquare_exbold"
+            android:text="취소"
+            android:textColor="@color/네이비"
+            android:textSize="18sp" />
+
+        <android.widget.Button
+            android:id="@+id/o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/nanumsquare_exbold"
+            android:text="거래 요청"
+            android:textColor="@color/베이지"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

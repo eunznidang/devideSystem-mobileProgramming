@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/베이지"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquare_exbold"
+                android:text="회원가입"
+                android:textColor="@color/네이비"
+                android:textSize="30sp" />
+
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumsquare_bold"
+                android:hint="이메일을 입력해 주세요"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/etPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumsquare_bold"
+                android:hint="비밀번호를 입력해 주세요"
+                android:textColor="@color/네이비"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etPwck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare_bold"
+                    android:hint="비밀번호를 다시 입력하세요"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/pwbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_bold"
+                    android:text="확인"
+                    android:textColor="@color/초록"
+                    android:textSize="14sp" />
+
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/etNickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumsquare_bold"
+                android:hint="닉네임을 입력해 주세요"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nanumsquare_bold"
+                    android:text="경북대학교" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nanumsquare_bold"
+                    android:text="영남대학교" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumsquare_exbold"
+                android:text="거래 가능한 요일을 선택해 주세요"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/mon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="월"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="화"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/wed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="수"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/thu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="목"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/fri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="금"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="토"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/연두"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_exbold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="일"
+                    android:textColor="@color/네이비"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <android.widget.Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/nanumsquare_exbold"
+                android:onClick="onClick"
+                android:text="가입하기"
+                android:textColor="@color/베이지" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/mybackground"
+    android:backgroundTint="@color/베이지"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TimePicker
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:fontFamily="@font/nanumsquare_bold"
+        android:text="부터"
+        android:textColor="@color/네이비" />
+
+
+    <TimePicker
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:fontFamily="@font/nanumsquare_bold"
+        android:text="까지"
+        android:textColor="@color/네이비" />
+
+
+    <android.widget.Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:fontFamily="@font/nanumsquare_exbold"
+        android:text="완료"
+        android:textColor="@color/베이지" />
+
+</LinearLayout>
