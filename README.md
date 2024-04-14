@@ -25,6 +25,7 @@
   
   <h2> 👾 Flow Chart </h2>
   <img width="586" alt="image" src="https://github.com/eunznidang/devideSystem-mobileProgramming/assets/90143666/8b7c3c8a-1721-4ddb-b69d-75c7bf6ea1ff">
+  <br>
 
 <h2> 🙌 주요 기능 </h2>
 <table>
@@ -42,14 +43,12 @@
     </td>
     <td>
       <p align='center'>
-        
-  <img width="236" alt="image" src="https://github.com/eunznidang/devideSystem-mobileProgramming/assets/90143666/ed5df658-cb93-4f13-aca7-ed1aec931a0a">
+        <img width="236" alt="image" src="https://github.com/eunznidang/devideSystem-mobileProgramming/assets/90143666/34315d11-b531-4d99-bcb0-66577b9913ca">
       </p>
     </td>
     <td>
       <p align='center'>
-        
-  <img width="236" alt="image" src="https://github.com/eunznidang/devideSystem-mobileProgramming/assets/90143666/ed5df658-cb93-4f13-aca7-ed1aec931a0a">
+        <img width="236" alt="image" src="https://github.com/eunznidang/devideSystem-mobileProgramming/assets/90143666/7a7aa717-d487-4d9b-ba3b-28a06601c520">
       </p>
     </td>
   </tr>
